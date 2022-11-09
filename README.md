@@ -5,7 +5,6 @@
 This project is a Person Manager
 
 - clean architecture with [Bloc](https://https://pub.dev/packages/get)
-- Report bar chat using [Dchart](https://pub.dev/packages/d_chart) between difference start alarm and stop gesture to move clock hands to adjust the time for the alarm 
 - Rest API service with [DIO](https://pub.dev/packages/dio)
 - Auto Route with [NAV ROUTER](https://github.com/chairilrafi11/nav_router)
 - Loading screen with shimmer effect [SHIMMER](https://pub.dev/packages/shimmer)
@@ -24,24 +23,24 @@ flutter run
 ## Guide & Screenschoot
 
 ### Home
-<img src="assets/screenshots/home.PNG" />
+<img src="assets/screenshots/home.png" />
 
 modern interface with simple material wigdet, all buttons are above the user list to make it visible and easier
 
 Users can search for objects by name, address, email and phone number
 
-<img src="assets/screenshots/option.PNG" />
+<img src="assets/screenshots/option.png" />
 
 also sort the list by name
 filter object by city
 clear current filter
 
-<img src="assets/screenshots/shimmer.PNG" />
+<img src="assets/screenshots/shimmer.png" />
 
 loading screen shimmer when get response form api 
 
 ### Form 
-<img src="assets/screenshots/form.PNG" />
+<img src="assets/screenshots/form.png" />
 
 simple but modern user data addition form. 
 
