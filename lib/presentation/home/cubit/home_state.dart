@@ -15,14 +15,14 @@ class HomeEmpty extends HomeState {}
 
 class HomeSuccess extends HomeState {
 
-  final List<User> listUser;
+  final List<Product> listProduct;
 
   const HomeSuccess({
-    required this.listUser
+    required this.listProduct
   });
 
   @override
-  List<Object> get props => [listUser];
+  List<Object> get props => [listProduct];
 
 }
 

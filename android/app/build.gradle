@@ -49,7 +49,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "id.chairil.personmanage"
+        applicationId "id.chairil.rabbani"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

@@ -125,7 +125,7 @@ class DioService {
 
   static Future<BaseOptions> baseOptions(bool isProvince) async {
     return BaseOptions(
-      baseUrl: baseURL(isProvince),
+      baseUrl: baseURL(isProvince, AppConfig.production),
       connectTimeout: Constant.timeRequestApi.inMilliseconds,
       receiveTimeout: Constant.timeRequestApi.inMilliseconds,
       sendTimeout: Constant.timeRequestApi.inMilliseconds,
@@ -136,9 +136,11 @@ class DioService {
     );
   }
 
-  static String baseURL(bool isProvince) {
+  static String baseURL(bool isProvince, bool isProduction) {
     if(isProvince){
       return AppConfig.urlProvince;
+    } else if (isProduction) {
+      return AppConfig.urlProduction;
     } else {
       return AppConfig.urlStagging;
     }

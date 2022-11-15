@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="id.chairil.personmanage">
+    package="id.chairil.rabbani">
 
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <!-- <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
@@ -36,7 +36,7 @@
   </queries>
 
    <application
-        android:label="Person Manage"
+        android:label="Chairil"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
